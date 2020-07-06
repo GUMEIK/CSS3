@@ -1,0 +1,60 @@
+div span {
+/*    父子选择器*/
+}
+
+div > span{
+
+}
+
+div + span{
+/*        div的下一个兄弟节点，这个节点得是span元素*/
+}
+div ~ span{
+/*    div下面所有的兄弟元素span节点*/
+}
+/*属性选择器*/
+div[data="a"]{
+/*    具有data属性的元素，且data的属性值为a*/
+}
+/*字体选中后的样式，只有这三个属性可以选择*/
+div::selection{
+    color: #ff1100;
+    background-color: #dddddd;
+    text-shadow: 10px 10px 10px green;
+}
+div:not(.demo){
+/*   出了有demo类名的div*/
+}
+div:not([data="a"]){
+
+}
+/*根标签选择器*/
+:root{
+/*    根节点，在html中和html元素相等的*/
+/*    */
+}
+/*location.hash = xxx*/
+div:target{
+
+}
+/*p元素是某个父元素的第一个子元素*/
+p:first-child{
+
+}
+p:last-child{
+
+}
+span:only-child{
+
+}
+/*n从0 开始查
+css从1开始查
+*/
+/*ood*/
+/*even*/
+p:nth-child(2n + 1){
+
+}
+p:nth-last-child(odd){
+
+}

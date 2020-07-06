@@ -1,0 +1,13 @@
+@font-face {
+    /*给字体包取一个名字*/
+    font-family: 'abc';
+    src: url('http://at.alicdn.com/t/font_1397098551_95441.eot');
+    src: url('http://at.alicdn.com/t/font_1397098551_95441.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_1397098552_0142624.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_1397098551_8732882.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_1397098552_0586202.svg#iconfont') format('svg');
+}
+div{
+    font-size: 80px;
+    font-family: 'abc';
+}
